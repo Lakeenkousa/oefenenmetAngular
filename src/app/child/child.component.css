@@ -1,0 +1,22 @@
+img{
+    width: 440px;
+    height: 200px;
+}
+table{
+    width: 60%;
+    background: rgb(214, 230, 116);
+    tab-size: 400px;
+    color: black;
+    border-spacing: 3px;
+}
+th{ 
+    height: 70px; 
+    text-align: center;
+    width: 70;
+
+}
+td{
+    background: rgb(109, 109, 187);
+    text-align: center;
+
+}
