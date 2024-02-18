@@ -11,6 +11,10 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { AppRoutingModule } from './app.routing';
 import { ChildService } from './child/child.service';
+import { Child2Component } from './child2/child2.component';
+import { Child2aComponent } from './menu/child2a/child2a.component';
+import { Child2bComponent } from './menu/child2b/child2b.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -21,7 +25,11 @@ import { ChildService } from './child/child.service';
     CampingInvoerComponent,
     CampingRegistratieInvoerComponent,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    Child2Component,
+    Child2aComponent,
+    Child2bComponent,
+    FooterComponent
   
   ],
   imports: [

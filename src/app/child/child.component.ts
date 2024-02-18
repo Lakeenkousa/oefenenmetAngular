@@ -7,9 +7,10 @@ import { ChildService } from './child.service';
   styleUrls: ['./child.component.css']
 })
 export class ChildComponent //implements OnInit
- {
+{
 
  ChildInvoerModel =' ';
+ 
 
 // constructor(private childService: ChildService) { }
 

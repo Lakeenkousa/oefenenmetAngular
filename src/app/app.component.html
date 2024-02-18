@@ -5,10 +5,8 @@
 <app-camping [CampingRegistratieList]="registratie"></app-camping>
 <app-child (uitvoerCreate)="onChildInvoerCreated($event)"></app-child>
 <app-parent [invoerWaarde]="invoer"></app-parent>
+<body>    
 <a routerLink="/">Parent</a> | <a routerLink="/child">Child</a>
-<body>
-    
-
 <router-outlet></router-outlet>
 </body>-->
 
@@ -17,19 +15,26 @@
      <style>
         a:link {
             text-decoration:  none;
-            color: #333;
+            color: #0e0808;
         }
         a:visited{
             text-decoration:  none;
-            color: #333;
+            color: #0e0808;
         }
-     </style>
+        </style>
      
 <ul>
-    <li><a routerLink="/">Parent</a></li>
-    <li><a routerLink="/Geselecteerde camping">Geselecteerde camping</a></li>
-    <router-outlet></router-outlet>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/child">Prijslijst</a></li>
+    <li><a routerLink="/child2">Activiteiten</a>
+     <ul>
+       <li><a routerLink="/child2a">Wandelen</a></li>
+       <li><a routerLink="/child2b">Kanoen</a></li>
+     </ul>
+    </li>
 </ul>
-
 </div>
+<router-outlet></router-outlet>
+
+
 

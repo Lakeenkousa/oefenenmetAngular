@@ -1,0 +1,28 @@
+.page_framework {
+    background-color: rgb(21, 168, 182);
+    top: 100px;
+    position:relative;
+    right: auto;
+    height: auto;
+    width: auto;
+    
+    
+    
+}
+body{
+    position:relative;
+    right:auto;
+    background-color: rgb(21, 168, 182);
+    bottom: 10px;
+    margin: auto;
+    padding:auto ;
+    
+}
+.carousel{
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+
+}
+
